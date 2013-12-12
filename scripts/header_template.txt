@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#########################################################################
+###   Config file management script for ohosting virtual machine host
+###          Author  Suguru Oho <oho-s@klab.com>
+###          Date    2013/08/29
+###   Description
+###     If you need to edit system config files such as /etc/*.conf.
+###     Use this script for edit.
+###     Script automatically make symbolic link of config file
+###     to aggregation directory if it not exists.
+###
+###   Usage:  vconf <filename>
+###
+#########################################################################
+
+
